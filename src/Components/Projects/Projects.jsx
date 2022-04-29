@@ -39,7 +39,7 @@ export const Projects = () => {
                 <h2>FAB BAG</h2>
                 <p>
                   An e-commerce website that provides monthly subscriptions for
-                  lady's beauty products.
+                  lady's beauty-care, skin-care, and hair-care products.
                 </p>
                 <div>
                   <SiHtml5 />
@@ -58,7 +58,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Ajay-Maury/Fabbag-2.0"
+                    href="https://github.com/Ajay-Maury/Mamaearth.git"
                     target="_blank"
                     rel="noreferrer"
                   >
