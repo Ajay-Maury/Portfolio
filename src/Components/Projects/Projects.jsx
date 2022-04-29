@@ -58,7 +58,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Ajay-Maury/Mamaearth.git"
+                    href="https://github.com/Ajay-Maury/Fabbag-2.0"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -99,7 +99,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://mamaearth-unit4.netlify.app/"
+                    href="https://github.com/Ajay-Maury/Mamaearth.git"
                     target="_blank"
                     rel="noreferrer"
                   >
