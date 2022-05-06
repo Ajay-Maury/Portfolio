@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import { FaReact, FaHardHat, FaNodeJs } from "react-icons/fa";
 import {
   SiCss3,
   SiBootstrap,
@@ -18,7 +18,7 @@ import {
   SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+import { AiOutlineApi } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io";
 import project1 from "../../assets/proj-1.png";
 import project2 from "../../assets/proj-2.png";
@@ -87,6 +87,9 @@ export const Projects = () => {
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
+                  <SiMongodb />
+                  <FaNodeJs />
+                  <SiExpress />
                 </div>
                 <div>
                   <a
@@ -99,7 +102,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Ajay-Maury/Mamaearth.git"
+                    href="https://github.com/rasheed8123/Mamaearth-main.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -111,37 +114,40 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          {/* <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img
+                    src="https://user-images.githubusercontent.com/97455068/166886776-8772fb11-026a-408f-b6aa-805add1c3be1.png"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2>Weather Forecast</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                  A website provides weather updates along with google map of
+                  the given city.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
+                  <AiOutlineApi />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://weather-update-with-map.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/Ajay-Maury/Weather-Forecast.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -154,7 +160,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="projects_container" data-aos="fade-right">
+          {/*  <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
