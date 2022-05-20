@@ -127,7 +127,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Weather Forecast</h2>
                 <p>
-                  A website provides weather updates along with google map of
+                  This is a website created with HTML, CSS, JavaScript, Weather API. You can gets weather updates along with google map of
                   the given city.
                 </p>
                 <div>
@@ -148,6 +148,51 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/Ajay-Maury/Weather-Forecast.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://user-images.githubusercontent.com/97455068/169433809-322cecc7-866a-46cc-a24c-caa63bd48f0e.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Live Weather Update</h2>
+                <p>
+                  It is an app created with React.js. You can search any city name to get that's place weather details in real time.
+                </p>
+                <div>
+                  <FaReact/>
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <AiOutlineApi />
+                </div>
+                <div>
+                  <a
+                    href="https://weather-update.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Ajay-Maury/Weather-Update.git"
                     target="_blank"
                     rel="noreferrer"
                   >
