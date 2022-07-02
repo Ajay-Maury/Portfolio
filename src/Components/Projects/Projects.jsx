@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat, FaNodeJs } from "react-icons/fa";
 import {
+  SiRedux,
   SiCss3,
   SiBootstrap,
   SiBlockchaindotcom,
@@ -25,17 +26,111 @@ import project2 from "../../assets/proj-2.png";
 export const Projects = () => {
   return (
     <>
-      <div className="section">
-        <h2 className="section__title different">Projects</h2>
-        <div className="allProjects">
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
+      <div className='section'>
+        <h2 className='section__title different'>Projects</h2>
+        <div className='allProjects'>
+          <div className='projects_container' data-aos='fade-right'>
+            <div className='project'>
+              <div className='project_videocontainer'>
+                <div>
+                  <img
+                    src='https://user-images.githubusercontent.com/97455068/169433809-322cecc7-866a-46cc-a24c-caa63bd48f0e.png'
+                    alt=''
+                  />
+                </div>
+              </div>
+              <div className='project_information'>
+                <h2>Get Movie Detail</h2>
+                <p>
+                  This is a React app created with React, Redux. This App
+                  provides trending and searched movies and TV shows.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiRedux />
+                  <SiReactrouter />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <AiOutlineApi />
+                </div>
+                <div>
+                  <a
+                    href='https://get-movie-details.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <span type='button' className='btns onbt onbt'>
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href='https://github.com/Ajay-Maury/Get-Movie-Details.git'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <span type='button' className='btns onbt'>
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='projects_container' data-aos='fade-right'>
+            <div className='project'>
+              <div className='project_videocontainer'>
+                <div>
+                  <img
+                    src='https://user-images.githubusercontent.com/97455068/169433809-322cecc7-866a-46cc-a24c-caa63bd48f0e.png'
+                    alt=''
+                  />
+                </div>
+              </div>
+              <div className='project_information'>
+                <h2>Live Weather Update</h2>
+                <p>
+                  It is an app created with React.js. You can search any city
+                  name to get that's place weather details in real time.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <IoLogoJavascript />
+                  <AiOutlineApi />
+                </div>
+                <div>
+                  <a
+                    href='https://weather-update.vercel.app/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <span type='button' className='btns onbt onbt'>
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href='https://github.com/Ajay-Maury/Weather-Update.git'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <span type='button' className='btns onbt'>
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='projects_container' data-aos='fade-right'>
+            <div className='project'>
+              <div className='project_videocontainer'>
                 <div>
                   <img src={project1} />
                 </div>
               </div>
-              <div className="project_information">
+              <div className='project_information'>
                 <h2>FAB BAG</h2>
                 <p>
                   An e-commerce website that provides monthly subscriptions for
@@ -49,20 +144,20 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://fab-bag2-0.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://fab-bag2-0.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type='button' className='btns onbt onbt'>
                       See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Ajay-Maury/Fabbag-2.0"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://github.com/Ajay-Maury/Fabbag-2.0'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt">
+                    <span type='button' className='btns onbt'>
                       View Code
                     </span>
                   </a>
@@ -70,14 +165,14 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
+          <div className='projects_container' data-aos='fade-right'>
+            <div className='project'>
+              <div className='project_videocontainer'>
                 <div>
                   <img src={project2} />
                 </div>
               </div>
-              <div className="project_information">
+              <div className='project_information'>
                 <h2>Mamaearth</h2>
                 <p>
                   An e-commerce website providing toxin-free, natural baby-care,
@@ -93,20 +188,20 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://mamaearth-unit4.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://mamaearth-unit4.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt">
+                    <span type='button' className='btns onbt'>
                       See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/rasheed8123/Mamaearth-main.git"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://github.com/rasheed8123/Mamaearth-main.git'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt">
+                    <span type='button' className='btns onbt'>
                       View Code
                     </span>
                   </a>
@@ -114,21 +209,22 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
+          <div className='projects_container' data-aos='fade-right'>
+            <div className='project'>
+              <div className='project_videocontainer'>
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/97455068/166886776-8772fb11-026a-408f-b6aa-805add1c3be1.png"
-                    alt=""
+                    src='https://user-images.githubusercontent.com/97455068/166886776-8772fb11-026a-408f-b6aa-805add1c3be1.png'
+                    alt=''
                   />
                 </div>
               </div>
-              <div className="project_information">
+              <div className='project_information'>
                 <h2>Weather Forecast</h2>
                 <p>
-                  This is a website created with HTML, CSS, JavaScript, Weather API. You can gets weather updates along with google map of
-                  the given city.
+                  This is a website created with HTML, CSS, JavaScript, Weather
+                  API. You can gets weather updates along with google map of the
+                  given city.
                 </p>
                 <div>
                   <DiCss3 />
@@ -138,65 +234,20 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://weather-update-with-map.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://weather-update-with-map.netlify.app/'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type='button' className='btns onbt onbt'>
                       See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Ajay-Maury/Weather-Forecast.git"
-                    target="_blank"
-                    rel="noreferrer"
+                    href='https://github.com/Ajay-Maury/Weather-Forecast.git'
+                    target='_blank'
+                    rel='noreferrer'
                   >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/97455068/169433809-322cecc7-866a-46cc-a24c-caa63bd48f0e.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Live Weather Update</h2>
-                <p>
-                  It is an app created with React.js. You can search any city name to get that's place weather details in real time.
-                </p>
-                <div>
-                  <FaReact/>
-                  <SiHtml5 />
-                  <DiCss3 />
-                  <IoLogoJavascript />
-                  <AiOutlineApi />
-                </div>
-                <div>
-                  <a
-                    href="https://weather-update.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Ajay-Maury/Weather-Update.git"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
+                    <span type='button' className='btns onbt'>
                       View Code
                     </span>
                   </a>
