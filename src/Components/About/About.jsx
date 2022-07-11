@@ -15,51 +15,50 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div className="about center">
-        <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Ajay Kumar Maurya</span>
+      <div className='about center'>
+        <h1 data-aos='fade-right' className='mobileHead'>
+          Hello, I am <span className='about__name'>Ajay Kumar Maurya</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        <p className='about__desc' data-aos='fade-right'>
           Passionate and creative Full Stack Developer having proficiency in
           MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          learn new one.
         </p>
-        <div className="about__contact center">
+        <div className='about__contact center'>
           <a
-            href="https://github.com/Ajay-Maury"
-            aria-label="github"
-            target="_blank"
-            rel="noreferrer"
-            className="link link--icon"
+            href='https://github.com/Ajay-Maury'
+            aria-label='github'
+            target='_blank'
+            rel='noreferrer'
+            className='link link--icon'
           >
             <GitHubIcon />
           </a>
           <a
-            href="mailto: ajaymaurya6798@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="mail"
-            className="link link--icon"
+            href='mailto: ajaymaurya6798@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+            aria-label='mail'
+            className='link link--icon'
           >
             <EmailIcon />
           </a>
           <a
-            href="tel:+919695889614"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone"
-            className="link link--icon"
+            href='tel:+919695889614'
+            target='_blank'
+            rel='noreferrer'
+            aria-label='phone'
+            className='link link--icon'
           >
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/ajay-kumar-maurya/"
-            aria-label="linkedin"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
+            href='https://www.linkedin.com/in/ajay-kumar-maurya/'
+            aria-label='linkedin'
+            className='link link--icon'
+            target='_blank'
+            rel='noreferrer'
           >
             <LinkedInIcon />
           </a>
@@ -75,7 +74,7 @@ export const About = () => {
         </div>
 
         <button
-          className="btnResume"
+          className='btnResume'
           onClick={() => {
             window.open(
               "https://drive.google.com/file/d/1e0LPh730j5uejck9rvUjQeURkA2W9iB8/view?usp=sharing"
@@ -87,7 +86,7 @@ export const About = () => {
       </div>
       <Introduction />
       <Timeline />
-      <section id="#skills">
+      <section id='#skills'>
         <Techstacks />
       </section>
     </>
