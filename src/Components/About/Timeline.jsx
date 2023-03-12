@@ -32,7 +32,43 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"November 2021 - Present"}
+            date={"July 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              SDE-1
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              at actyv.ai
+            </h4>
+            <p data-aos="fade-right">
+              Working as a MERN Full Stack Software Developer, implementing new features, resolving bugs, writing complex MongoDB aggregation query, and Configuring cron job to auto-trigger scheduled events, using
+              Tech stacks MongoDB, TypeScript, React.js, Redux-toolkit, Nest.js, Node.js, Camunda and others.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement  
+            date={"November 2021 - July 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -96,7 +132,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             Summer Training on JAVA
+              Summer Training on JAVA
             </h4>
             <p data-aos="fade-right">
               Completed 45 days Summer Training on Java from Techpile Technology Pvt. Ltd. Lucknow.

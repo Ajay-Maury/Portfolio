@@ -4,10 +4,8 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/Profile-pic.png";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
-
   return (
     <>
       <section id="#about">
@@ -30,7 +28,7 @@ export const Introduction = () => {
                 </span>
                 . I have completed my diploma in Information Technology from{" "}
                 <span className="different">
-                  Government Polytechnic Lucknow, Uttar Pradesh 
+                  Government Polytechnic Lucknow, Uttar Pradesh
                 </span>
                 . Then I joined full stack development course by{" "}
                 <span className="different">Masai School</span> a military type
