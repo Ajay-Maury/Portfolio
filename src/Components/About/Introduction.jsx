@@ -19,18 +19,18 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
+                Hi Everyone, My name is
                 <span className="different">Ajay Kumar Maurya </span> and I am
-                from{" "}
+                from
                 <span className="different">
-                  {" "}
+                  
                   Sant Kabir Nagar, Uttar Pradesh (India)
                 </span>
-                . I have completed my diploma in Information Technology from{" "}
+                . I have completed my diploma in Information Technology from
                 <span className="different">
                   Government Polytechnic Lucknow, Uttar Pradesh
                 </span>
-                . Then I joined full stack development course by{" "}
+                . Then I joined full stack development course by
                 <span className="different">Masai School</span> a military type
                 coding school.
               </h4>
@@ -39,19 +39,25 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Quick Learner{" "}
+                Quick Learner
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber{" "}
+                Collaborative
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Team Player{" "}
+                Team Player
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Creative
               </h4>
             </div>
           </div>
